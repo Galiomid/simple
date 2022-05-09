@@ -1,4 +1,4 @@
-FROM centos:02
+FROM centos:ok2
 MAINTAINER Devops Easy learning
 RUN yum update -y
 RUN yum update curl vim wget unzip git -y
