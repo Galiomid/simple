@@ -1,4 +1,3 @@
-
 FROM tomcat:ok2
 MAINTAINER Devops Easy learning
 RUN yum update -y
