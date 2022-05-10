@@ -1,4 +1,5 @@
-FROM centos:dev
+
+FROM tomcat:ok2
 MAINTAINER Devops Easy learning
 RUN yum update -y
 RUN yum update curl vim wget unzip git -y
