@@ -109,6 +109,9 @@ unclassified:
     useTls: false
   pollSCM:
     pollingThreadCount: 10
+  slackNotifier:
+    botUser: false
+    sendAsText: false
   timestamper:
     allPipelines: false
     elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
