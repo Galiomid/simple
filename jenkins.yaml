@@ -2,7 +2,15 @@ jenkins:
   agentProtocols:
   - "JNLP4-connect"
   - "Ping"
-
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  labelAtoms:
+  - name: "built-in"
   markupFormatter: "plainText"
   mode: NORMAL
   myViewsTabBar: "standard"
